@@ -28,6 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
+AUTH_USER_MODEL = 'accounts.CustomUser'
 # Application definition
 
 INSTALLED_APPS = [
@@ -43,9 +44,7 @@ INSTALLED_APPS = [
 
     #app
     "accounts",
-    "students",
-    "teachers",
-    "principal",
+    "schoolapp"
 ]
 
 MIDDLEWARE = [
