@@ -4,7 +4,7 @@ This is a school management system built using Django as backend and html css js
 
 ## Current Status Of Project
 
-- Database Model is completed for assignment upload and user creation.
+- User Authentication is completed.
 
 ## Objective
 - Make School System Digitalized.
